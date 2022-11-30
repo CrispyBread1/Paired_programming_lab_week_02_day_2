@@ -25,3 +25,4 @@ class TestBusStop(unittest.TestCase):
         self.bus_stop.add_to_queue(self.person)
         self.bus_stop.clear()
         self.assertEqual(0, self.bus_stop.queue_length())
+        
